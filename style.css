@@ -91,52 +91,67 @@ a:hover, a:active {
     display: inline;
 }
 
-
-#nav {
-    height: 40px;
-    width: 100%;
-    background-color: chocolate;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color:#fff;
+    display:inline-block;
+    padding: 10px 25px;
+    height: 20px;
 }
 
-#content {
-    height:410px;
-    width: 550px;
-    float:left;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav.active a.visited{
+    background-color: #FF8C00;
+    text-shadow:none;
 }
 
-#topContent {
-    height: 200px;
-    width: 100%;
-   
-    margin-bottom: 5px;
-    margin-right: 5px;
-    float:left;
-    background-color: white;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.mainHeader nav ul li a{
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}       
+ 
+.mainContent{
+        line-height:25px;
+        border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius: 5px;
+}       
+    
+.content {
+        width:70%;
+        float:left;
 }
-#bottomContent {
-    height: 210px;
-    width: 100%;
+    
+.topcontent{
+        background-color: #fff;
+        border-radius:5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        /*margin-top: 2%;*/
+}   
+    
+.bottomcontent {
+    background-color: #fff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}    
+
+.top-sider {
+    width: 23%;
     float:left;
-    background-color: white;
-    margin-top: 5px;
-    margin-right: 5px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-color: #fff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    margin: 0 0 1% 1%;
+    padding: 2% 3%;
 }
+
+
 
 #right {
     height: 410px;
@@ -148,18 +163,7 @@ a:hover, a:active {
     border-bottom-right-radius: 15px;
 }
 
-#topSideBar {
-    height: 120px;
-    width: 100%;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    float:left;
-    background-color: white;   
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+
 
 #middleSideBar {
     height: 160px;
